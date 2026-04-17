@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:center;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:2px solid black;
+    padding:1rem 2rem;
+    margin:1rem;
+    border-radius:6px;
+    background-color:pink;
+    
+}
+.middle img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:20px;
+
+}
+
+.nav-items{
+    display:flex;
+    align-items:center;
+    column-gap:40px;
+    row-gap:40px;
+    list-style:none;
+    text-decoration:none;
+    
+}
+
+.nav-items li{
+    padding:0.5rem 1rem;
+    border-radius:6px;
+    transition:0.3s ease-in-out;
+}
+
+.card img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:20px;
+
+
+
+    
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:1rem;
+    border-radius:6px;
+    background-color:pink;
+    margin:1rem;
+    border:2px solid black;
+    
+
+}
+
+.middle{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:1rem;
+    border-radius:6px;
+    background-color:pink;
+    margin:1rem;
+    border:2px solid black;
+}
+
+/*.projects1{
+    display:grid;
+    flex-direction:row;
+    width:200px;
+    height:170px;
+    object-fit:cover;
+    border-radius:20px;*/
+
+.projects1{
+    display:flex;
+    grid-template-columns:repeat(3,1fr);
+    max-width:1600px;
+    gap:3rem;
+    padding:2rem;
+    border-radius:6px;
+    background-color:pink;
+    margin:1rem;
+    border:2px solid black;
+    flex-wrap:wrap;
+
+}
+
+.projects1 img{
+    display:flex;
+    width:400px;
+    height:200px;
+    object-fit:cover;
+    border-radius:20px;
+
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+    padding:2rem;
+    border-radius:6px;
+    background-color:pink;
+    margin:1rem auto;
+    border:2px solid black;
+    max-width:1600px;
+    gap:20px;
+}
+
+form button{
+    padding:0.5rem 1rem;
+    border-radius:6px;
+    background-color:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
