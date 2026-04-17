@@ -110,7 +110,7 @@ form{
     flex-direction:column;
     width:600px;
     padding:2rem;
-    border-radius:6px;
+    border-radius:10px;
     background-color:pink;
     margin:1rem auto;
     border:2px solid black;
