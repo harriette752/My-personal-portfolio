@@ -63,6 +63,31 @@
 
 
         </form>
+     const form = document.getElementById("contactForm");
+
+const error = document.getElementById("error");
+
+form.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+
+    const email = document.getElementById("email").value;
+
+    const message = document.getElementById("message").value;
+
+    if(name === "" || email === "" || message === ""){
+
+        error.innerHTML = "Please fill all fields";
+
+    }else{
+
+        error.innerHTML = "Form Submitted Successfully";
+
+    }
+
+});
 
         
  
